@@ -18,7 +18,7 @@ body{
     height: 100vh;
     position: relative;
     padding: 4.5rem 8rem;
-    background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-image: url(bg-pattern-top-desktop.svg), url(bg-pattern-bottom-desktop.svg);
     background-position: left -185px top -236px, right 10px bottom -300px;
     background-repeat: no-repeat, no-repeat;
     background-attachment: fixed, fixed;
@@ -140,7 +140,7 @@ body{
 
     body{
         padding: 15rem 6rem;
-        background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
+        background-image: url(bg-pattern-top-mobile.svg), url(bg-pattern-bottom-mobile.svg);
         background-position: left -185px top -236px, right 10px bottom -300px;
         background-repeat: no-repeat, no-repeat;
         background-attachment: fixed, fixed;
@@ -182,6 +182,11 @@ body{
 @media screen and (max-width: 850px){
     body{
         padding: 4rem;
+        background-image: url(bg-pattern-top-mobile.svg), url(bg-pattern-bottom-mobile.svg);
+        background-position: left -185px top -236px, right 10px bottom -300px;
+        background-repeat: no-repeat, no-repeat;
+        background-attachment: fixed, fixed;
+        background-size: contain, contain;
     }
     .description{
         flex-direction: column;
@@ -220,6 +225,11 @@ body{
 @media screen and (max-width: 480px){
     body{
         padding: 3rem 1.5rem;
+        background-image: url(bg-pattern-top-mobile.svg), url(bg-pattern-bottom-mobile.svg);
+        background-position: left -185px top -236px, right 10px bottom -300px;
+        background-repeat: no-repeat, no-repeat;
+        background-attachment: fixed, fixed;
+        background-size: contain, contain;
     }
     .top-pattern{
         width: 350px;
